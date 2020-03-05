@@ -1,3 +1,6 @@
+### A frond-end javascript application to find the order on an element "a" to any power given the order of a^1.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
