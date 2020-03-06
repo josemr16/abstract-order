@@ -33,9 +33,9 @@ class Display extends React.Component {
 			<div className = 'w--100'>
 				<div className="pa3 mt3 tc centered shadow-2 br2">
 					<div className = 'centered'>
-						<input className="db centered" onChange={this.onChangeFirst} placeholder ='Order of a' type='number'/>
-						<input className="db centered" onChange={this.onChangeSecond} placeholder ='Power of a'type='number'/>
-						<button onClick={this.onClickSubmit}>Submit</button>
+						<input className="db centered mb3 pa2" onChange={this.onChangeFirst} placeholder ='Order of a' type='number'/>
+						<input className="db centered mb3 pa2" onChange={this.onChangeSecond} placeholder ='Power of a'type='number'/>
+						<button className="mb2" onClick={this.onClickSubmit}>Submit</button>
 					</div>
 					<div className ="centered">
 						<span>{`The Order of a^${this.state.second} is ${this.state.result}`}</span>
